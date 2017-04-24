@@ -2,6 +2,14 @@
 # Variables
 # = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
 
+# * * I M P O R T A N T
+# * * D O   N O T   P U T   Y O U R   A C C E S S  K E Y  H E R E * *
+# Put your AWS Credential in: terraform.tfvars file
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+variable "AWS_ACCESS_KEY" {} # Do not change
+
+variable "AWS_SECRET_KEY" {} # Do not change
+
 # AWS Region, for this to work without noticable downtime, select a zone that
 # have Multi-AZ available (and enable it on your RDS Database)
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
